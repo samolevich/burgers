@@ -30,7 +30,7 @@ export class AppComponent {
   constructor(private fb: FormBuilder, private appService: AppService) {}
 
   ngOnInit() {
-    this.appService.getData().subscribe(data => this.productsData = data)
+    this.appService.getData().subscribe((data) => (this.productsData = data));
   }
 
   scrollTo(target: HTMLElement, burger?: IProduct) {

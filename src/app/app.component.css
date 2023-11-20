@@ -1,5 +1,5 @@
 .main {
-  border-image: url("../assets/images/main_bg.png");
+  background-image: url("../assets/images/main_bg.png");
   background-position: top center;
   overflow: hidden;
 }
@@ -102,7 +102,7 @@
 }
 
 .why {
-  border-image: url("../assets/images/whybg.png");
+  background-image: url("../assets/images/whybg.png");
   background-position: top center;
   background-size: initial;
   padding-bottom: 180px;
@@ -201,7 +201,7 @@
 }
 
 .order {
-  border-image: url("../assets/images/order_bg.png");
+  background-image: url("../assets/images/order_bg.png");
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 180px;

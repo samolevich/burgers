@@ -158,6 +158,11 @@
 
 .products-item-image img {
   max-width: 100%;
+  transition: all 500ms ease;
+}
+
+.products-item-image img {
+  transform: scale(1.1);
 }
 
 .products-item-title {
